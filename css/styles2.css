@@ -1,0 +1,14 @@
+.lab5-section {
+  border-style: dashed;
+  border-color: yellow;
+  padding: 20px;
+}
+.top-lab5 {
+  border-style: dashed;
+  border-color: green;
+}
+.lab5-welcoming-title {
+  color: red;
+  border-style: dashed;
+  border-color: blue;
+}
