@@ -1,8 +1,10 @@
 .lab5-section {
   background-color: lightgrey;
-  border-style: dashed;
-  border-color: yellow;
   padding: 20px;
+  background-image: url('/assets/img/reserve-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 .top-lab5 {
 
@@ -10,6 +12,9 @@
 .lab5-welcoming-title {
   text-align: center;
   color: white;
+  text-shadow: 2px 1px black;
+  background: rgba(0,0,0,0.1);
+
 
 }
 #selectable .ui-selecting { background: #FECA40; }
@@ -20,3 +25,9 @@
 .mechanic-selection {
   padding: 20px;
 }
+
+.validation
+ {
+   color: red;
+   margin-bottom: 20px;
+ }
