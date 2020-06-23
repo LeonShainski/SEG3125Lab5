@@ -8,6 +8,8 @@
         <title>Boss Bikes - SEG3125 Lab 5</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
 
+
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -17,6 +19,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styles2.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -273,6 +276,45 @@
                 </div>
             </div>
         </div>-->
+
+        <!-- This is where the portion for lab5 begins -->
+        <section class="lab5-section">
+          <div class="container">
+              <h1 class="lab5-welcoming-title">Want instant service? Reserve a service slot now!</h1>
+              <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                  <div class="row align-items-stretch mb-5">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                          <div class="form-group mb-md-0">
+                              <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                              <p class="help-block text-danger"></p>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group form-group-textarea mb-md-0">
+                            Date: <input type="text" id="datepicker">
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="text-center">
+                      <div id="success"></div>
+                      <button class="btn btn-primary btn-xl text-uppercase" id="sup" type="submit">Send Message</button>
+                  </div>
+              </form>
+        </section>
+
+
+
+
+
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -310,6 +352,8 @@
                 </form>
             </div>
 
+
+
         </section>
         <!-- Footer-->
         <footer class="footer py-4">
@@ -329,6 +373,8 @@
                 </div>
             </div>
         </footer>
+
+
         <!-- Portfolio Modals--><!-- Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
@@ -462,14 +508,6 @@
             </div>
         </div>
 
-        <!-- This is where the portion for lab5 begins -->
-        <section class="lab5-section">
-          <div class="top-lab5">
-              <h1 class="lab5-welcoming-title">Want instant service? Reserve a service slot now!</h1>
-          </div>
-        </section>
-
-
 
 
 
@@ -483,5 +521,10 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/scripts2.js"></script>
+
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          <!--      <script src="https://code.jquery.com/jquery-1.12.4.js"></script> PROBABLY NOT NEEDED -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     </body>
 </html>
