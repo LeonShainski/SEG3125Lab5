@@ -17,6 +17,7 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/styles2.css" rel="stylesheet" />
 
@@ -276,7 +277,39 @@
                 </div>
             </div>
         </div>-->
-
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Meet the Mechanics</h2>
+                    <h3 class="section-subheading text-muted">A team of highly qualified professionals to ensure the highest quality of repairs</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/4.jpg" alt="" />
+                            <h4>Joe White</h4>
+                            <p class="text-muted">Mechanic In Chief | Ba. Mechanical Engineering from Duke Unviersity</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Co-Founder | Mechanical Engineer | Mountain Bike enthusiast</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/5.jpg" alt="" />
+                            <h4>Marques St. Cyer</h4>
+                            <p class="text-muted"> Gear Specialist | Magna Cume Lade M. Sc. from University of Toronto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Highly educated to ensure the highest standards across the board</p></div>
+                </div>
+            </div>
         <!-- This is where the portion for lab5 begins -->
         <section class="lab5-section">
           <div class="container">
@@ -302,11 +335,21 @@
                             Date: <input type="text" id="datepicker">
 
                           </div>
+                          <div class="mechanic-selection">
+
+                            <select class="image-picker show-html">
+                              <option value="">Please select a mechanic:</option>
+                              <option data-img-src="http://placekitten.com/300/200" value="1">Joe</option>
+                              <option data-img-src="http://placekitten.com/150/200" value="2">Larry</option>
+                              <option data-img-src="http://placekitten.com/400/200" value="3">Marques</option>
+                            </select>
+                          </div>
+
                       </div>
                   </div>
                   <div class="text-center">
                       <div id="success"></div>
-                      <button class="btn btn-primary btn-xl text-uppercase" id="sup" type="submit">Send Message</button>
+                      <button class="btn btn-primary btn-xl text-uppercase" id="sup" type="submit">Reserve a Slot</button>
                   </div>
               </form>
         </section>
